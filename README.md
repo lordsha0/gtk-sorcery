@@ -3,13 +3,12 @@
 
 #### Installation
 
-Extract the zip file to the themes directory i.e. `/usr/share/themes/` or `~/.themes/` (create it if necessary).
-
-To set the theme on Gnome, run the following commands in Terminal:
-
+Clone the content of the theme
 ```
-gsettings set org.gnome.desktop.interface gtk-theme "Juno"
-gsettings set org.gnome.desktop.wm.preferences theme "Juno"
+git clone https://github.com/lordsha0/gtk-sorcery
 ```
+
+Copy the content to the themes directory i.e. `/usr/share/themes/` or `~/.themes/` (create it if necessary).
+
 or Change via distribution specific tool.
 
